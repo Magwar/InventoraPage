@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    font-family: poppins;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000;
+}
+.navbar-logo a{
+    font-size: 1.5rem;
+    color: #2ea875;
+    text-decoration: none;
+}
+.navbar-links{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+.navbar-links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: color 0.5s ease-in-out, border-bottom 0.5s ease-in-out;
+}
+.navbar-links a:hover{
+    /* color: #2ea875; */
+    color: #3671e5;
+    border-bottom: 2px solid #2ea875;
+}
+/* .navbar-buttons{
+    display: flex;
+    gap: 1rem;
+} */
+/* .login-button,
+.signup-button {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #0f0;
+} */
+/* .signup-button {
+    background-color: #0f0;
+    color: #000;
+} */
+/* .login-button:hover,
+.signup-button:hover {
+    background-color: #fff;
+    color: #000;
+} */
+.header{
+    padding: 3rem 1rem;
+}
+.header h1{
+    font-size: 2.2rem;
+    margin-bottom: 0.2rem;
+}
+.emphasis{
+    color: #2ea875;
+    font-size: 2.99rem;
+}
+.header p{
+    font-size: 1.2rem;
+    margin-bottom: 1.8rem;
+}
+.emphasis-p{
+    color: #3671e5;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+.header-buttons{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    font-weight: 500;
+}
+.product-demo,
+.start-free-trial{
+    color: #000;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 7px;
+    background-color: #fff;
+}
+.start-free-trial{
+    background-color: #2ea875;
+    color: #000;
+}
+.product-demo:hover,
+.start-free-trial:hover{
+    background-color: #000;
+    color: #2ea875;
+}
